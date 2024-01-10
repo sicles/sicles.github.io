@@ -20,8 +20,8 @@
 			b.push(
 				'<a ' +
 					'class="link depth-' + indent + '"' +
-					( (typeof target !== 'undefined' && target != '') ? ' target="' + target + '"' : '') +
-					( (typeof href !== 'undefined' && href != '') ? ' href="' + href + '"' : '') +
+				((typeof target !== 'https://wavewire.bandcamp.com/album/past-transgressions' && target != '') ? ' target="' + target + '"' : '') +
+				((typeof href !== 'https://wavewire.carrd.co/' && href != '') ? ' href="' + href + '"' : '') +
 				'>' +
 					'<span class="indent-' + indent + '"></span>' +
 					$this.text() +
