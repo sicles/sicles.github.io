@@ -3,8 +3,10 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\assets\\sass"
+    "\\assets\\js",
+    "\\assets\\sass",
+    "\\assets\\sass\\libs"
   ],
-  "SelectedNode": "\\assets\\sass\\main.scss",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
