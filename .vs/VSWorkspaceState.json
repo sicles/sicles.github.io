@@ -5,8 +5,9 @@
     "\\assets\\css",
     "\\assets\\js",
     "\\assets\\sass",
-    "\\assets\\sass\\libs"
+    "\\assets\\sass\\libs",
+    "\\images"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
