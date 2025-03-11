@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
+@import url("https://fonts.googleapis.com/css?family=Funnel+Display:300,400,700,900,300italic");
 
 /*
 	Dopetrope by HTML5 UP
@@ -21,6 +22,7 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	color: rgb(37, 8, 37);
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
@@ -83,8 +85,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #252122;
-		background-image: url("images/bg02.png");
+		background: #100e0e url("images/bg6.png");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -99,7 +100,7 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro';
+		font-family: 'Funnel Display';
 		font-weight: 300;
 		color: #5d5d5d;
 		font-size: 14pt;
@@ -1560,6 +1561,7 @@ input, select, textarea {
 				display: inline;
 				margin: 0;
 				padding: 0 1em 0 1em;
+				color: white;
 			}
 
 	footer {
@@ -1615,7 +1617,7 @@ input, select, textarea {
 		border: 0;
 		border-radius: 5px;
 		background: #d52349;
-		color: #fff !important;
+		color: deeppink !important;
 		font-weight: 700;
 		outline: 0;
 		font-size: 1.1em;
@@ -1798,6 +1800,7 @@ input, select, textarea {
 			}
 
 			ul.contact li p {
+				color: white;
 				margin: 0;
 			}
 
@@ -1809,67 +1812,6 @@ input, select, textarea {
 				ul.contact li:first-child h3 {
 					top: 0;
 				}
-
-/* Dates */
-
-	ul.dates {
-		list-style: none;
-		padding-left: 0;
-	}
-
-		ul.dates li {
-			position: relative;
-			border-top: solid 1px #ddd;
-			padding: 1.3em 0 1.3em 6.75em;
-		}
-
-		ul.dates .date {
-			display: block;
-			position: absolute;
-			left: 0;
-			top: 1.3em;
-			background-color: #d52349;
-			height: 3.5em;
-			text-align: center;
-			color: #fff;
-			line-height: 1em;
-			border-top-left-radius: 5px;
-			border-bottom-left-radius: 5px;
-			padding: 0.5em 0.75em 0 1em;
-		}
-
-			ul.dates .date:after {
-				content: '';
-				position: absolute;
-				bottom: 0;
-				right: -1.2em;
-				border-left: solid 1.25em #d52349;
-				border-top: solid 1.8em transparent;
-				border-bottom: solid 1.8em transparent;
-			}
-
-			ul.dates .date strong {
-				display: block;
-				font-size: 1.75em;
-				padding-top: 0.15em;
-			}
-
-		ul.dates h3 {
-			font-size: 1.1em;
-		}
-
-		ul.dates p {
-			margin: 0;
-		}
-
-		ul.dates li:first-child {
-			border-top: 0;
-			padding-top: 0;
-		}
-
-			ul.dates li:first-child .date {
-				top: 0;
-			}
 
 /* Divided */
 
@@ -1927,30 +1869,6 @@ input, select, textarea {
 					line-height: 1.5em;
 				}
 
-				ul.social li a.fa-facebook {
-					background: #3c5a98;
-				}
-
-					ul.social li a.fa-facebook:hover {
-						background: #4c6aa8;
-					}
-
-				ul.social li a.fa-twitter {
-					background: #2daae4;
-				}
-
-					ul.social li a.fa-twitter:hover {
-						background: #3dbaf4;
-					}
-
-				ul.social li a.fa-dribbble {
-					background: #c4376b;
-				}
-
-					ul.social li a.fa-dribbble:hover {
-						background: #d4477b;
-					}
-
 				ul.social li a.fa-linkedin {
 					background: #006599;
 				}
@@ -1958,23 +1876,30 @@ input, select, textarea {
 					ul.social li a.fa-linkedin:hover {
 						background: #1075a9;
 					}
-
-				ul.social li a.fa-tumblr {
-					background: #2b4661;
+					
+				ul.social li a.fa-bluesky {
+					background: #0085ff;
 				}
-
-					ul.social li a.fa-tumblr:hover {
-						background: #3b5671;
+				
+					ul.social li a.fa-bluesky:hover {
+						background: #003cff;
 					}
 
-				ul.social li a.fa-google-plus {
-					background: #da2713;
+				ul.social li a.fa-github {
+					background: #061428;
 				}
-
-					ul.social li a.fa-google-plus:hover {
-						background: #ea3723;
+				
+					ul.social li a.fa-github:hover {
+						background: #434c59;
 					}
 
+				ul.social li a.fa-itch-io {
+					background: #dc420a;
+				}
+				
+					ul.social li a.fa-itch-io:hover {
+						background: #e39c17;
+					}
 /* Icons */
 
 	.icon {
@@ -2203,6 +2128,8 @@ input, select, textarea {
 				font-style: normal;
 				margin: 0;
 				font-size: 1.5em;
+				color: deeppink;
+				
 			}
 
 /* Intro */
@@ -2266,7 +2193,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: #2c2c2c url("images/bg6.png");
 		padding: 4em 0 4em 0;
 	}
 
@@ -2276,14 +2203,14 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
+			background: url("images/bg6.png");
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
 		}
 
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			background: #f7f7f7 url("images/bg6.png");
 		}
 
 /* Footer */
@@ -2300,7 +2227,7 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
+			background: url("images/bg6.png");
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
@@ -2631,7 +2558,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				color: #858484;
-				background-image: url("images/bg02.png");
+				background-image: url("images/bg6.png");
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 			}
 
