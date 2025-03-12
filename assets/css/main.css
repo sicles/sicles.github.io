@@ -1617,7 +1617,7 @@ input, select, textarea {
 		border: 0;
 		border-radius: 5px;
 		background: #d52349;
-		color: deeppink !important;
+		color: white !important;
 		font-weight: 700;
 		outline: 0;
 		font-size: 1.1em;
@@ -2128,7 +2128,7 @@ input, select, textarea {
 				font-style: normal;
 				margin: 0;
 				font-size: 1.5em;
-				color: deeppink;
+				color: white;
 				
 			}
 
