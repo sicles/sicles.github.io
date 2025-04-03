@@ -1880,7 +1880,7 @@ input, select, textarea {
 		ul.contact li {
 			position: relative;
 			border-top: solid 1px #ddd;
-			padding: 1.3em 0 1.3em 7em;
+			padding: 0.5em 0 0.5em 0;
 		}
 
 			ul.contact li h3 {
@@ -1929,12 +1929,13 @@ input, select, textarea {
 		overflow: hidden;
 		cursor: default;
 		margin: 0 0 3.25em 0;
+		text-align: center;
 	}
 
 		ul.social li {
 			display: inline-block;
 			padding-left: 0;
-			margin-left: 0.75em;
+			margin-left: 1.5em;
 		}
 
 			ul.social li:first-child {
@@ -1942,9 +1943,10 @@ input, select, textarea {
 			}
 
 			ul.social li a {
-				display: inline-block;
+				display: grid;
 				width: 3em;
 				height: 3em;
+				font-size: 1.5em;
 				text-align: center;
 				border-radius: 5px;
 				background: #888;
@@ -1996,7 +1998,6 @@ input, select, textarea {
 	.icon {
 		text-decoration: none;
 		position: relative;
-		text-decoration: none;
 	}
 
 		.icon:before {
@@ -2310,6 +2311,9 @@ input, select, textarea {
 		position: relative;
 		color: #858484;
 		padding: 4em 0;
+		display: flex;
+		align-items: center;
+		text-align: center;
 	}
 
 		#footer:before {
@@ -2809,7 +2813,8 @@ input, select, textarea {
 
 		/* Contact */
 
-			ul.contact li {
+			ul.contact li 
+			{
 				padding: 0.8em 0 0.8em 7em;
 			}
 
