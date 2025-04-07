@@ -1780,6 +1780,28 @@ input, select, textarea {
 			padding: 0.75em 1.5em 0.75em 1.5em;
 		}
 
+	.button.square {
+		display: inline-block;
+		width: 5em;
+		height: 5em;
+		padding: 0.5em;
+		font-size: 2em;
+		text-align: center;
+		line-height: 1.2em;
+		border-radius: 10px;
+		background-color: #d52349;
+		color: white;
+		font-weight: bold;
+		vertical-align: middle;
+		background-color: firebrick;
+	}
+
+.button.square i {
+	font-size: 1.5em;
+	margin-bottom: 0.3em;
+	display: block;
+}
+
 /* Image */
 
 	.image {
@@ -2382,6 +2404,20 @@ input, select, textarea {
 			}
 
 	}
+
+/* resume */
+#resume {
+	text-align: center;
+	color: white;
+	margin-bottom: 2em;
+}
+
+#resume h2 {
+	font-size: 1.75em;
+	color: white;
+	font-weight: 700;
+	margin-bottom: 0.5em;
+}
 
 /* Large */
 
