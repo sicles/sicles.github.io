@@ -1616,9 +1616,10 @@ input, select, textarea {
 }
 
 .portfolio-video {
-	position: relative;
 	width: 100%;
 	height: auto;
+	display: block;
+	max-width: 100%;
 }
 
 /* Sidebar */
