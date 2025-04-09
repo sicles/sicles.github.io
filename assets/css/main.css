@@ -1603,6 +1603,99 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
+/* Timeline */
+
+.box.dark {
+	background: #1a1a1a !important;
+	color: #f4f4f4 !important;
+	border-left: 4px solid #d52349;
+}
+
+/* Override link and emphasis styles */
+.box.dark a,
+.box.dark em,
+.box.dark strong,
+.box.dark li {
+	color: #f4f4f4 !important;
+}
+
+/* List style improvements */
+#timeline .box.dark
+{
+	margin-bottom: 4em;
+}
+
+.timeline-list 
+{
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+.timeline-list li 
+{
+	display: flex;
+	position: relative;
+	margin-bottom: 1.75em;
+	border-left: 2px solid #d52349;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+
+.timeline-year 
+{
+	flex: 0 0 80px;
+	color: #f4f4f4;
+	font-weight: bold;
+	margin-right: 1em;
+}
+
+.timeline-content 
+{
+	flex: 1;
+	color: #f4f4f4;
+}
+
+.timeline-list li::before 
+{
+	content: '';
+	position: absolute;
+	left: -0.6em;
+	top: 0.5em;
+	width: 0.6em;
+	height: 0.6em;
+	background: #d52349;
+	border-radius: 50%;
+}
+
+.timeline-list em 
+{
+	font-style: italic;
+	color: #aaa !important;
+}
+
+.timeline-list strong 
+{
+	color: #ffffff !important;
+}
+
+/* Header fixes */
+.box.dark .major h2 {
+	color: white !important;
+	background: transparent;
+	border-bottom: 1px solid #666;
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+}
+
+#timeline .major {
+	border-top: none !important;
+}
+
+#timeline .major h2 {
+	background: none !important;
+}
+		
 /* Video */
 
 .background-video {
