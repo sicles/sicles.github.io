@@ -1658,6 +1658,7 @@ input, select, textarea {
 
 .timeline-list li::before 
 {
+	display: none;
 	content: '';
 	position: absolute;
 	left: -0.6em;
